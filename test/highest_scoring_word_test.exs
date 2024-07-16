@@ -16,11 +16,11 @@ defmodule TestSolution do
 
   test "Sample test" do
     Enum.map(@samples, fn {input, output} ->
-      assert Kata.high(input) == output
+      assert Kata1.high(input) == output
     end)
   end
 
   test "Empty test" do
-    assert Kata.high("") == ""
+    assert Kata1.high("") == ""
   end
 end
